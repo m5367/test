@@ -1,0 +1,11 @@
+name: Python CI
+
+on: [push]  # コードがpushされたら実行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4  # コードを取得
+      - name: Run Test
+        run: pytest test_hello.py  # テストを実行
