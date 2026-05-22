@@ -7,4 +7,4 @@ GitHub Actionsも少し触りました。
 コンフリクトを起こすテスト
 
 PC上でREADMEを編集してpushする練習です。
-
+GitHub上で編集した内容をpullでPCに取り込む練習です。
